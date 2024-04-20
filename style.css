@@ -1,0 +1,183 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #5e7388;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header img {
+  width: 80px;
+  height: auto;
+  margin-right: 10px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+nav {
+  background-color: #212529;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffc107;
+}
+
+.content {
+  padding: 50px 0;
+  text-align: left;
+
+}
+
+.content h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  margin-right: 30px;
+}
+
+.latest-news {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.latest-news h3 {
+  margin-top: 0;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.latest-news ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.latest-news ul li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: Arial, sans-serif;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-decoration: underline;
+  line-height: 1.2;
+}
+
+h2 {
+  text-align: center;
+  font-size: large;
+}
+
+h3 {
+  text-align: center;
+  font-size: large;
+}
+
+.footnote {
+  text-align: center;
+  font-size: small;
+}
+
+p {
+  text-align: left;
+  font-size: x-large;
+}
+
+/* about us page*/
+.aboutus {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 100px;
+
+  .aboutus img {
+    margin-right: 20px;/
+  }
+}
+
+/* hall of fame page*/
+.halloffame {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 100px;
+
+  .halloffame img {
+    margin-right: 20px;/
+  }
+}
+
+/* handy inventions page*/
+.handy {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 100px;
+
+  .handy img {
+    margin-right: 20px;/
+  }
+}
