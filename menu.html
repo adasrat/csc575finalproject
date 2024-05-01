@@ -1,46 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-
+     <!-- head is used to change the title of the website on the tab. this sets it to An Excellent Acessible Page -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>An Excellent Accessible Page</title>  <!-- Change to whatever you want the tab to be called-->
+    <title>An Excellent, Accessible Page</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<!-- need to add alt text too -->
+
 <body>
     <header>
+         <!--the class is set to container- defined in style.css  -->
         <div class="container">
-            <!-- change image -->
-            <img src="images/goblin.jpg" title="Header Image">
-            <h1>An Excellent Accessible Website</h1>
+            <!-- An image was added next to the title of the website -->
+            <img src="images/goblin.jpg" alt="Illustration of a goblin character">
+            <h1>An Excellent, Accessible Website</h1>
         </div>
     </header>
-
+     <!--nav is used to create the navigation bar to change pages and the content on the pages  -->
     <nav>
         <div class="container">
-            <!-- Changed target=content to target = "_self" and added title="Link to ... Tab"-->
+             <!-- an unordered list is used to hold the pages  -->
+             <!-- instead of using <big> and <font>, used li and a  -->
             <ul>
-                <!-- *need to add alt text*  -->
-                <li><a href="index.html" target="_self" title="Link to Introduction Tab">Introduction</a></li>
-                <li><a href="halloffame.html" target="_self" title="Link to Hall of Fame Tab">Hall of Fame</a></li>
-                <li><a href="handy.html" target="_self" title="Link to Handy Inventions Tab">Handy Inventions</a></li>
-                <li><a href="heading.html" target="_self" title="Link to About Us Tab">About Us</a></li>
+                <li><a href="intro.html" target="Contents">Introduction</a></li>
+                <li><a href="halloffame.html" target="Contents">Hall of Fame</a></li>
+                <li><a href="handy.html" target="Contents">Handy Inventions</a></li>
+                <li><a href="aboutus.html" target="Contents">About Us</a></li>
             </ul>
         </div>
     </nav>
 
     <section class="content">
         <div class="container">
+            
             <div class="row">
                 <div class="col-md-8">
                     <h2>Welcome to Our Accessible Website</h2>
-                    <p>This is the homepage of our accessible website. Here you can find information about various
-                        topics, including Introduction, Hall of Fame, Handy Inventions, and About Us.</p>
+                    <p>This is the homepage of our accessible website. Here you can find information about various topics, including Introduction, Hall of Fame, Handy Inventions, and About Us.</p>
                     <p>Feel free to explore the different sections using the navigation menu above.</p>
                 </div>
                 <div class="col-md-4">
                     <div class="latest-news">
+                        <!-- Replace the <p> element with a <h3> heading -->
                         <h3>Latest News</h3>
                         <ul>
                             <li>Check out our new blog post on the latest innovations!</li>
@@ -53,11 +55,12 @@
         </div>
     </section>
 
+   
     <footer>
         <div class="container">
-            <p>&copy; 2024 Your Company. All rights reserved.</p>
+            
+            <h2>&copy; 2024 Your Company. All rights reserved.</h2>
         </div>
     </footer>
 </body>
-
 </html>
